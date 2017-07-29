@@ -1,13 +1,13 @@
-import { AuthModule } from '../auth/auth.module'
+
 
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { Store } from 'store';
-AuthModule
-// feature modules
 
+// feature modules
+import { AuthModule } from '../auth/auth.module'
 // containers
 import { AppComponent } from './containers/app/app.component';
 

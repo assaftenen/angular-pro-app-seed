@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
+
 import { SharedModule } from './../shared/shred.module';
 
-import { LoginComponent } from './containers/login/login.component'
+import { RegisterComponent } from './containers/register/register.component'
 
 export const ROUTES: Routes = [
-    {path: '', component: LoginComponent}
+    {path: '', component: RegisterComponent}
 ]
 
 @NgModule({
@@ -15,9 +16,7 @@ export const ROUTES: Routes = [
         RouterModule.forChild(ROUTES),
         SharedModule
     ],
-    declarations: [
-        LoginComponent
-    ],
+    declarations: [RegisterComponent],
    
 })
-export class LoginModule {}
+export class RegisterModule {}
