@@ -1,6 +1,3 @@
-
-
-
 import { NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 import { Routes, RouterModule } from '@angular/router'
@@ -19,7 +16,7 @@ import { AppNavComponent } from './components/app-nav/app-nav.component'
 
 // routes
 export const ROUTES: Routes = [
-  {path: ' ', pathMatch: 'full', redirectTo: 'schedule'}
+  {path: '', pathMatch: 'full', redirectTo: 'schedule'}
 ]
 
 @NgModule({
