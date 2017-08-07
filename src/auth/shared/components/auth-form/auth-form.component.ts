@@ -60,4 +60,3 @@ export class AuthFormComponent {
         return control.hasError('email') && control.touched
     }
 }
-Validators
